@@ -23,12 +23,12 @@ vector<int>A(int n) //Thuật toán Eratosthenes
 
 // Tính số mũ của p trong N!
 int somu(int N, int p) {
-    int exp = 0;
+    int mu = 0;
     while (N > 0) {
         N /= p;
-        exp += N;
+        mu += N;
     }
-    return exp;
+    return mu;
 }
 
 int main() {
@@ -47,5 +47,5 @@ int main() {
             cout << mu[i] << (i == last ? '\n' : ' ');// in ra dãy số mũ của các số nguyên
         }
     }
-    return 0;
+    return 0;   
 }
