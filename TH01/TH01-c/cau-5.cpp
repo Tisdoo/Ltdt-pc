@@ -10,7 +10,7 @@ int main() {
     cin >> nx;
     for (int i = 0; i < nx; i++) {
         int v; cin >> v;
-        cnt[v] |= 1; 
+        cnt[v] =1; 
     }
 
     cin >> ny;
