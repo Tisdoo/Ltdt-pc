@@ -1,12 +1,14 @@
 #include <iostream>
 #include<vector>
 #include<string>
-using namespace std;
 
+using namespace std;
 int debai(const string &s) {
     int n = s.size();
-    if (n < 3) return 0;
-
+   
+    
+    
+ 
     const int SIZE = 26 * 26 * 26; // tổng số phần tử bộ ba là 17576
     vector<int> tansuat(SIZE, 0);
     int kq = 0;

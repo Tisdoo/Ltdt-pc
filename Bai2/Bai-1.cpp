@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-#define FI "MATRANKE.INP"
+#define FI "MATRANKE.inp"
 
 int n;
 vector<vector<int>> a;
